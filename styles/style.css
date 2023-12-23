@@ -48,6 +48,40 @@ hr{
     margin-left: 16px;
 }
 hr{
-    background: 1px solid #D1D1D1;
+    border: 1px solid #D1D1D1;
     margin-top: 22px;
+    margin-bottom: 22px;
 }
+
+/* top blogs */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+.blog{
+    display: flex;
+}
+.thumbnail img{
+    width: 224px;
+    height: 127px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.blog-author a{
+    color: #562EFF;
+    text-decoration: none;
+}
+
+
+/* **************(complete)
+9-5 Create one blog using flex layout and style adjustment
+***************** */
