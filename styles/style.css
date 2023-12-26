@@ -84,8 +84,23 @@ hr{
     color: #562EFF;
     text-decoration: none;
 }
-
-
+ /* Latest courses */
+ .course-img img{
+    width: 224px;
+    height: 104px;
+ }
+ .course-info{
+    display: flex;
+ }
+ .fa-star{
+     font-size: 12px;
+ }
+ .filled{
+    color: #FFC014;
+ }
+ .empty{
+    color: #AEAEAE;
+ }
 /* **************(complete)
-9-6 Add multiple blogs and use grid layout to get two columns
+9-7 Create Single course and use font awesome ratings
 ***************** */
